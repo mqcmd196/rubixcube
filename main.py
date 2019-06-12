@@ -49,6 +49,7 @@ def display():
     glRotatef(-yaw, 0.0, 1.0, 0.0 )
     glPushMatrix()
     # glutSolidTeapot(1.5)
+    # ここにルービックキューブを表示させたいわね
     glutSolidCube(2.0)
 
     glPopMatrix()
